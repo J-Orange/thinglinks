@@ -3,7 +3,7 @@
     <!-- 日志存放路径 -->
 	<property name="log.path" value="logs/thinglinks-tdengine" />
    <!-- 日志输出格式 -->
-	<property name="log.pattern" value="%black(thinglinks.mqttsnet.com) %red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger) - %cyan(%msg%n)" />
+	<property name="log.pattern" value="%yellow(thinglinks.mqttsnet.com) %red(%d{yyyy-MM-dd HH:mm:ss}) %green([%thread]) %highlight(%-5level) %boldMagenta(%logger) - %cyan(%msg%n)" />
 
     <!-- mqtts.net输出 -->
 	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
